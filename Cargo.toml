@@ -1,0 +1,4 @@
+[package]
+name = "rust_basics"
+version = "0.0.1"
+authors = ["Franco Sarachu <fsarachu@gmail.com>"]
