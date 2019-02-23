@@ -59,7 +59,11 @@ fn operators() {
     println!("PI < 4.0: {}", pi_less_4); // true
 }
 
+// Constants
+const THE_CONST:u8 = 8; // No fixed address, occurrences are replaced at compilation time
+
 fn main() {
     //fundamental_data_types();
-    operators();
+    //operators();
+    println!("Constant: {}", THE_CONST);
 }
