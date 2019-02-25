@@ -8,4 +8,5 @@ pub fn run(temperature:i32) {
     }
 
     let top_wear = if temperature > 20 {"t-shirt"} else { "hoodie" };
+    println!("Top wear: {}", top_wear);
 }
