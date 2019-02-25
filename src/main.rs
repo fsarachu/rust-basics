@@ -1,7 +1,10 @@
 #[allow(dead_code)]
 
-mod _01_types_and_variables;
+mod _02_flow_control;
+use _02_flow_control::_01_if::run;
 
 fn main() {
-    _01_types_and_variables::_04_stack_and_heap::run()
+    run(35);
+    run(15);
+    run(5);
 }
