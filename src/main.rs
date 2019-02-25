@@ -3,5 +3,5 @@
 mod _01_types_and_variables;
 
 fn main() {
-    _01_types_and_variables::_02_operators::run()
+    _01_types_and_variables::_04_stack_and_heap::run()
 }
